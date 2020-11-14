@@ -23,6 +23,7 @@ export interface PhoneInputProps {
   textInputStyle?: StyleProp<TextStyle>;
   codeTextStyle?: StyleProp<TextStyle>;
   flagButtonStyle?: StyleProp<ViewStyle>;
+  placeholderTextColor?: string | undefined;
 }
 export interface PhoneInputState {
   code: CallingCode | undefined;
